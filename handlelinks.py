@@ -10,7 +10,7 @@ driver = webdriver.Chrome(service=serv_obj)
 driver.get("https://demo.nopcommerce.com/")
 driver.maximize_window()
 
-driver.find_element(By.LINK_TEXT, "Electronics").click()
+driver.find_element(By.LINK_TEXT, "Electronicsnow").click()
 #links=driver.find_elements(By.TAG_NAME, "a")
 links=driver.find_elements(By.XPATH, "//a")
 print("No. of links", len(links))
